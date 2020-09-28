@@ -1,0 +1,173 @@
+/* Title */
+.title-tag{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+.subtitle{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+
+}
+#title{
+  z-index: -1;
+}
+.desc{
+
+}
+.description
+{
+  padding-top: 100px;
+  padding-left: 175px;
+  padding-bottom: 30px;
+  background-color: #a3d2ca;
+}
+.team{
+    width: 400px;
+    height: 400px;
+}
+/* downloads */
+#downloads{
+  padding-top:15px;
+  background-color: #f6f4e6 ;
+  padding-bottom: 40px;
+}
+.phone
+{
+  width:275px;
+  height: 600px;
+  padding-top:3%;
+  position: relative;
+  transform: rotate(-15deg);
+  z-index: 1;
+
+}
+.Dbutton{
+    padding-top :85px;
+    padding-left: 100px;
+
+}
+.All-Buttons
+{
+  padding-left: 100px;
+  display: inline;
+
+}
+.dbuttons{
+  marging-left:20px;
+  margin-right:20px;
+}
+/* Testimonials */
+
+#testimonials{
+    background-color: #a3d2ca;
+      margin-bottom: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      padding-left: 30px;
+      padding-right:30px;
+}
+#testimonials .p {
+    margin-top: 0;
+    padding-top: 100px;
+
+}
+.carousel-item{
+ padding: 7% 15%;
+}
+.elon{
+  margin-bottom: 0;
+}
+#carees{
+  background-color: #f6f4e6 ;
+}
+.elonmusk{
+  width: 80px;
+  height: 78px;
+  border-radius: 100%;
+
+}
+.stevejobs
+{
+    width:80px;
+    height: 77px;
+    border-radius: 100%;
+
+}
+.billgates
+{
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+
+
+
+/* capabilities */
+#capabilities{
+  background-color: #f6f4e6 ;
+  padding-top :20px;
+  padding-bottom:20px;
+  padding-left:20px;
+
+}
+.capabilities-list .tech-title{
+  display: table-cell;
+  vertical-align: middle;
+}
+.capabilities-list li:hover{
+  box-shadow: 0 0 11px;
+}
+.capabilities-list li{
+  padding-right : 100px;
+  display: inline-table;
+}
+
+
+/* careers */
+
+.careers
+{
+
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #a3d2ca;
+    padding-top: 20px;
+    padding-left:30px;
+    padding-bottom :5%;
+}
+.card{
+  padding-bottom:5%;
+  padding-top:5%;
+  margin-bottom: 5%;
+  margin-top:20px;
+}
+
+
+/* Footer */
+#footer
+{
+  padding-top: 10px;
+  text-align: center;
+}
+.footer-icons
+{
+  margin:10px;
+  padding-bottom:4px;
+}
+
+
+/* media queries */
+@media (max-width :1028px)
+{
+  .phone{
+    transform: rotate(0);
+    position: static;
+  }
+  #downloads{
+    text-align: center
+  }
+}
